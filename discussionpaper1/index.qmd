@@ -26,6 +26,9 @@ filters:
 fig-cap-location: top
 ---
 
+::: {.column-margin}
+![](assets/logo.png)
+:::
 
 # Executive Summary  
 Hawaii has a substantial housing shortage, as most recently outlined in the 2025 Hawaii Housing Planning Study. That this shortage is a driver of high home prices is no doubt true, and thus identifying a resolution to it critical as Hawaii looks to address the housing needs of kama’aina and locals.
