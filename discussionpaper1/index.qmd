@@ -1,0 +1,630 @@
+---
+title: "Market forces limit housingproduction in Hawaii"
+toc: false
+subtitle: "LIMBY Discussion Paper 1"
+author: "Makana Hicks-Goo"
+date: ""
+format:
+    html: 
+      page-layout: article
+#       self-contained: true
+#       sidebar:
+#         style: "docked"
+#         contents:
+#           - text: "OK"
+#       grid: 
+#         margin-width: 350px
+#         sidebar-width: 300px
+    # pdf: default
+    
+# execute: 
+#   echo: fenced
+reference-location: margin
+citation-location: margin
+filters:
+  - highlight-text
+fig-cap-location: top
+---
+
+
+# Executive Summary  
+Hawaii has a substantial housing shortage, as most recently outlined in the 2025 Hawaii Housing Planning Study. That this shortage is a driver of high home prices is no doubt true, and thus identifying a resolution to it critical as Hawaii looks to address the housing needs of kama’aina and locals.
+
+For decades developers and their allies have claimed that a lack of capacity is the fundamental cause of this shortage and consequently of high home prices in Hawaii; and that this lack of capacity is imposed primarily if not entirely by government regulation particularly zoning. 
+
+We examine that claim critically and conclude that there is strong evidence that this imposition does not exist in a meaningful fashion. Instead we find that developers themselves build at rates far below their own demonstrated capability and additionally that in Honolulu County alone we have sufficient zoned capacity to meet all of Hawaii’s housing needs. 
+
+Specifically we find that:
+
+- in terms of already zoned capacity, Honolulu likely already meets the demand requirements outlined in the 2019 and 2024 Hawaii Housing Demand Studies
+  - Total capacity is between 75k and 175k depending on ADU eligibility
+  - Over 28k lots could be converted to duplex homes, resulting in a net gain of 28k family-sized homes
+  - The net amount of approved housing remaining in large projects such as Ho’opili is around 20k units
+  - Nearly 6,000 units are being held off the market speculatively
+- following an upzoning developers build on average far slower than their peak production rates and earn more as a consequence of this slowdown
+- developers face a range of constraints and incentives that make it unlikely they will build enough to drive down prices
+
+Upzoning as a policy prescription has many merits, but policy makers and the public should understand that it is unlikely to result in increased affordability via increased supply. Instead, upzoning may, over time, allow for the development of particular amenities in neighborhoods that are congruent with increased density.
+
+# Introduction
+
+Across the globe and in Hawaii zoning and other regulation are frequently blamed for a housing shortage and subsequent high home prices. This discussion paper reviews data specific to Honolulu County to evaluate the claim that zoning regulation underpins our shortage. We find both theoretical and factual reasons to doubt that zoning underpins the lack of sufficent housing in Honolulu, and possibly in the pae'aina.
+
+We first examine zoned capacity in Honolulu to see if this acts as a meaningful constraint on housing and conclude it does not. We bucket existing capacity into 
+
+We then examine developer behavior following upzoning—increases in the quantity of housing that can be provided in a given lot—by looking at what happens in large scale developments. We find that average rates of production lag peak production rates; that is developers delay building after governmental approval to do so. 
+
+We validate this finding by referencing academic literature and statements from developers themselves. In light of these, we conclude that developers face pressures that make such delays in production inevitable—but that these are largely market pressures ancillary to zoning and other government regulation. Additionally we find that the market is heavily centralized, that is it shows some features congruent with oligarchy.
+
+## Sources
+
+In addition to a number of academic and journalistic sources cited throughout, we rely on two primary sources for local housing data.
+
+The DPP Annual Report is used to extract zoned capacity—that is housing units that are currently approved to be built—and actual construction.
+
+This distinction between zoned capacity and actual construction introduces a concept often conflated in discussions around our housing shortage and zoned capacity. Zoned and approved housing are often treated as indistinguishable from the supply of housing. But this is not exactly correct.
+
+Zoned capacity is analogous to a natural resource like oil reserves. Oil reserves exist around the globe in various forms, but these oil reserves are not themselves the “supply” of oil.
+
+Instead the supply of oil is the amount of those reservoirs that are made available to the public by the actions of investors making strategic investments in oil extraction. 
+
+The rate of oil production and the amount available to us in oil reservoirs then are different—if related—things. The same relationship holds in housing. The rate at which housing is produced (supply) is different than the total amount that could theoretically be produced at a given time (zoning).
+
+In the case of housing, the government imposes an artificial limit on the total amount of housing that can be produced through zoning: thus creating an artificial reservoir. But it is developers who determine how much of that available capacity is actually produced.
+
+[The contention of many housing advocates that the government’s artificial constraints limits housing supply is only true if developers are running up against the limits of zoned capacity]{bg-colour="#e7a967ff"}. If however, developers are producing housing at a rate far below the limit of housing units available to produce, then it is difficult to conclude that the reason for low levels of production is insufficient zoned capacity[^1].
+
+[^1]: Now in reality the artificial limits on housing production by created by zoning are dynamic—the amount of residentially zoned land has steadily increased over Honolulu’s history. Indeed, as we show, the number of units available to developers to produce has remained fairly constant over the last 15 years. Even if the production rate of developers was close to the total limit of available zoned housing, it not true that it’s a hard ceiling so long as new capacity is added to keep the amount available near constant; which appears to be what is happening. 
+
+We examine this dynamic two ways. First, we look at overall zoned capacity in Honolulu and compare that to production rates, relying for this on the DPP’s Annual Reports, tax map key level datasets provided via Hawaii’s Open Data Portal, and an UIPA request to replicate Table B-1 of the DPP Annual Report to date.
+
+Second, we examine the phenomenon in the case of particular projects showing that developers are slow to build even when granted permissions to produce thousands of new units. Such test cases amount to small scale upzoning and consequently provide further caution against assuming such a policy will lead to a bonanza of new homes.
+
+The second primary source is the Hawaii Housing Planning Study (HHPS). The HHPS is an addition to the DBEDT prepared Hawaii Housing Demand report. The Hawaii Housing Demand Report looks at changes to population and derives from that changes in household formation and so needed housing.
+
+The HHPS attempts to augment the DBEDT report by identifying needed housing beyond that driven by population change and household formation.
+
+> Our needed units estimate has three components:
+(1) a 5-year housing demand estimate based on population change only (18,078), (2) a 5-year target for reducing pent-up demand caused by years of supply shortages (28,459), and (3) a 5-year estimate of the number of units needed to accommodate homeless households (3,619). - 2019 HHPS
+
+In the 2025 release of the HHPS, the need  was estimated at 64.5k units over the next ten years, a 15k unit increase over the 2019 HHPS. The report was also updated to account for housing "in the pipeline". By this is meant planned production of housing—not the net sum of approved housing. See our discussion of that distinction just above.
+
+Additionally the 2025 report’s estimate of needed units includes 28,366 vacant units to facilitate "market function", representing 43% of the needed units[^2].
+
+[^2]: <sup></sup>The report uses a standard definition of vacancy rates which as noted is a substantial portion of needed units. However, throughout the report it notes that most of the need is for subsidized low income housing. Similarly, in it’s policy implications section, it promotes substantial governmental involvement in housing development that might be characterized as “social housing”.<p><br>This is significant because if such measures are the supply side solution, the requirements for vacant units will almost certainly be lower. In Singapore for instance, the vacancy rates in HDB housing which covers more than 70% of the population is ~0.2% for much of the last decade. Thus the applied vacancy rate is not fully applicable to the nature of the housing to be provided and possibly overestimated on that basis.<p><br>We also note the report seems to use DBEDT’s 2025-2030 population projections to project demand in the 2023-2027. This is misaligned both in time, essentially moving forward by three years the population projection, and in span, cramming into four years what DBEDT estimates would take five years. 
+
+The report also highlights that 51,816 units are unavailable to local residents due to their status as “seasonal” housing highlighting the incredible strain that the visitor industry puts on the local housing market. 
+
+
+# Existing Capacity in Honolulu {#sec-existing-capacity}
+Hawaii is currently targeting increases to its housing supply in line with the Hawaii Ka ʻOihana Hoʻomohala Pāʻoihana, ʻImi Waiwai a Hoʻomākaʻikaʻi (DBEDT) 2019 Hawaii Housing Planning Study (HHPS). 
+
+Governor Green has made housing, and in particular meeting the demand requirements of the HHPS a cornerstone of his tenure.
+
+> The affordable housing crisis in Hawaiʻi has reached a state of emergency. The Department of Business, Economic Development, and Tourism (DBEDT) finds that our state will require an additional 50,000+ homes by the year 2025. - Ke Ala Hou, August 2023 Governor’s Message
+
+The 2019 HHPS identifies a need for 50,000 new units by 2030, in part due to demand from doubled up households[^3]. This number was in a subsequent estimate released in June of 2025 updated to 64,490 units statewide.
+
+[^3]: As the study itself notes this demand estimate is remarkably consistent, mirroring the demand estimates from the three HPS conducted since 2010. It is also  approximately the same number as that estimated in HUD studies from the 1970s, 1960s, early 2000's.
+
+Due to this need, there has been a wide push to approve more projects and reform our zoning regulations as those are suspected to be the primary cause of our shortage[^4].
+
+[^4]: SB3202/Act 39 for instance requires Honolulu County to "to add development potential equivalent to half of the county's projected five-year demand of needed housing units for ownership or rental as stated in the 2019 Hawaii housing planning study"
+
+This push for upzoning to meet demand is odd for at least one reason: zoned capacity for tens of thousands of units already exists. The problem is less zoning for capacity as it is getting approved capacity built.
+
+The Honolulu Ka ʻOihana Hoʻolālā A Me Nā Palapala ʻAe (DPP) reports annually on the status of land use in Honolulu. Among its contents, is a table which contains a master list of known projects, the number of units to be built, the number of units built each year, and whether that project has full planning approval (committed) or is in some stage along the planning process (proposed).
+
+We extracted data out of DPP’s Annual Reports on the Status of Land Use on Oʻahu from fiscal year 2017, which included data for fiscal years 2010-2017; 2019, which included data for fiscal years 2018 and 2019; and 2022, which included fiscal years 2020, 2021, and 2022 as well as projections out to 2026.
+
+The data was parsed from the report via OCR and then aggregated. The DPP tables used only include data from projects of 25 or more housing units, thus they underestimate both planned and built units though in equal amounts. We reviewed only committed—that is fully approved—projects as proposed projects often disappeared from the record or were renamed which might have caused an overcount.
+
+The results of this analysis are shown in Figure 1, below. In sum, it shows that:
+
+1. the annual number of units built, the brown line, lags the zoned capacity, the orange line, by north of thousands of units and is independent of zoned capacity 
+2. as of 2022, there was already sufficient zoned capacity in Honolulu to meet the needs outlined in the 2019 and 2025 HHPS
+
+This analysis undercut arguments that our anemic supply is a product of zoning laws.
+
+Despite that capacity, the pace at which O’ahu produces new housing is entirely insufficient to meet our housing demand. While we could, as far as zoning is concerned, build 20,000 new units on O’ahu by the governor’s deadline, if developers continue to build at the average rate of production over the 5 years from 2022-2021 and 2019-2017 (excluding 2020, due to COVID impacts) it will take 20 years to exhaust present zoned capacity.
+```{python}
+#| echo: false
+#| column: page-inset-right
+#| fig-cap-location: top
+#| label: fig-commited-capacity
+#| fig-cap: "Built vs Remaining Commited Capacity in Honolulu"
+#| warning: false
+
+import polars as pl
+import plotly.express as px
+import plotly.graph_objects as go
+
+dfz = pl.read_excel(r'/Users/mmh/Documents/limby_publishing/discussionpaper1.xlsx', sheet_name='zoned_capacity')
+#f49300
+#78403a
+fig = go.Figure()
+fig.add_trace(
+  go.Scatter(
+    x=dfz["Year"], y=dfz["Total Committed Project Capacity As of Start year"],
+    mode='lines',
+    name='Remaining Commited Capacity',
+    line=dict(color='#f49300', width=3)
+  )
+)
+fig.add_trace(
+  go.Scatter(
+    x=dfz["Year"], y=dfz["Annual Units Built"],
+    mode='lines',
+    name='Annual Units Built',
+    line=dict(color='#78403a', width=3)
+  )
+)
+
+fig.update_layout(
+  plot_bgcolor='white',
+  xaxis_title="Year",
+  yaxis_title="Units",
+  # legend=dict(orientation="h", yanchor="bottom", y=-0.2, xanchor="right", x=1)
+)
+fig.show()
+
+
+# Field "column" has value column-body-outset, which must instead be one of: `body`, `body-outset`, `body-outset-left`, `body-outset-right`, `page`, `page-left`, `page-right`, `page-inset-left`, `page-inset-right`, `screen`, `screen-left`, `screen-right`, `screen-inset`, `screen-inset-shaded`, `screen-inset-left`, `screen-inset-right`, `margin
+```
+That is not a problem with zoning nor permitting. The zoning is there. It is a production problem.
+
+Thus far local policymakers have focused their attention on increasing the zoned capacity. But as Figure 1 shows, an ample amount of approved housing units does not mean they are built. 
+
+Whatever arguments there are for increasing zoned capacity, it is clearly not the fundamental constraint on new housing supply. Developers are building only a tiny fraction of available stock.
+
+This point is further buttressed if you consider that this estimate of zoned capacity is an undercount. To this total of planned capacity, we should add what could be constructed by right on Oahu—ADU’s and duplexes—and lots that are not yet developed but eligible to be.
+
+
+# Estimating ADU, Duplex, and Speculative Capacity
+ADU's are one source of potential housing and one that has served as the most recent turf battle between YIMBYs and NIMBYs. Already allowed in Honolulu, SB3202 in 2024 instructed counties to increase the number of allowable ADU’s per lot from one to two.
+
+What impact this would have on supply remains to be seen. Only 1,000 ADU’s have been built[^5] in Honolulu under the prior regime of one ADU per lot. This is not because of some restriction on their construction. 
+
+[^5]:  "ADUs Seemed Like a Simple Solution to Hawai‘i’s Housing Crisis", Hawaii Business Magazine, June 2022.
+
+he DPP estimates that perhaps 105k additional ADU could be built[^6]. This number does not account for lots built with HOA or other covenant restrictions so it would likely be lower, but not less than the 22k the DPP identified as eligible for the more restrictive Ohana units that existed prior to 2015. We use the 22k figure as our lower bound for the number of allowable ADU’s in the estimates that follow.
+
+[^6]:  Sourced from DPP testimony on initial draft of Bill15-20/ORD15-41, page 8.
+
+Lacking a comprehensive review of GIS data, it is hard to pinpoint exactly how many ADU's would be legal, but we can get some idea of how HOA and other restrictions would impact the number of potential ADU's by a point-in-time count of the number of homes for sale which list a HOA vs those that don't. Doing so across several sources indicates that ~55% of single-family homes are not subject to a HOA and thus unlikely subject to deed or covenant restrictions on ADU construction.
+```{python}
+#| echo: false
+#| label: tbl-hoa-units
+#| tbl-cap: Estimate of non HOA units
+#| tbl-cap-location: top
+from great_tables import GT
+from great_tables import style, loc
+import polars.selectors as cs
+
+
+dfhoa = pl.read_excel(
+  r'/Users/mmh/Documents/limby_publishing/discussionpaper1.xlsx',
+  sheet_name='hoa_spot_check',
+  schema_overrides={
+    "Site": pl.String, "W/out HOA": pl.String, "All": pl.String,
+    "% Without HOA": pl.String, "Label": pl.String
+  }
+)
+
+table_hoa = (
+  GT(dfhoa)
+  .tab_header(title="Spot of check of all listings on 24 June 2025")
+  # .tab_spanner(label="Total Population", columns=cs.all())
+  .tab_stub(rowname_col="Site", groupname_col="Label")
+  .tab_style(
+      style.text(size=22, style="italic", ),
+      loc.row_groups()
+  )
+  .tab_style(
+      style.text(size=16, weight="bold", ),
+      loc.body(
+        rows=pl.col("Site").str.contains("Average"),
+      ),
+  )
+  .tab_style(
+    style.text(size=16, weight="bold"),
+    loc.stub("Average"),
+  )
+  .tab_style(
+      style.text(size=16, weight="bold", ),
+      loc.body(
+        rows=pl.col("Site").str.contains("Total Units"),
+      ),
+  )
+  .tab_style(
+    style.text(size=16, weight="bold"),
+    loc.stub("Total Units Potentially ADU Eligible"),
+  )
+)
+table_hoa.show()
+# 
+```
+
+O'ahu has some 154k single-family detached homes[^7] so conceivably then as many as 83k homes are eligible for an ADU. We choose this as our upper bound rather than the 105k figure proposed by the DPP as that figure by their own admission did not account for private restrictions. We then subtract from that the number of units with a cesspool on O'ahu, which is around 11,000 units[^8]. Thus, our high bound for the estimate of lots eligible for ADU's of some sort is 72k. 
+
+[^7]: This estimate was made by joining Honolulu’s GIS zoning and TMK datasets to extract the number of Country, R3.5 to R-20 lots. It is 13k less than the figure in Table 21.17 of the Hawaii Data Book and used to insure consistency with other calculations reliant on the GIS data. It also serves to make our estimate more conservative.
+[^8]: “Still Have A Cesspool? Counties Could Start Charging You Pollution Fees In 2025”, CivilBeat, March 2024.
+
+This estimation does not account for the impact of SB3202 which would, ostensibly, raise those upper and lower bounds from 22k and 72k to 44k and 144k respectively by doubling the count of by-right ADU's per lot.
+
+*Duplex Capacity Untapped*
+
+Along a parallel track, O'ahu does not have single-family zoning in its urban areas. On R-5, R-7.5, R-10, R-20 zoned lots, duplexes are legal by right. HOA and other restrictions may limit this in many newer developments but in vast swathes of Honolulu, duplexes are just as legal as a single-family home.
+
+It is unlikely that a duplex could be built where an ADU could not be for the same reasons: sewer capacity and HOA type restrictions. Nor can duplexes be built where an ADU already exists, so in practice no more than two units are allowable per residentially zoned lot in any case. For this reason we do not break out duplexes as a separate category in our estimate as they would likely overlap with the ADU estimate.
+
+Nevertheless, duplexes can fill a much different market segment than an ADU allowing for homeownership and space for raising families in a way that an ADU cannot.
+
+While legal by right, duplexes do have different lot size requirements than their underlying residential district specifies. To create a duplex in an R-5 district for instance requires that the total lot size be 7,000 square feet: 2,000 square feet more than the required amount to build a single family home. [Even so, the lot size for a duplex amounts to far less per home. At 3,500 square feet per home it is a 30% reduction in lot size]{bg-colour="#e7a967ff"}.
+
+To estimate the number of eligible lots, we parsed a dataset of tens of thousands of residentially zoned lots on O’ahu. For each lot we pulled the zoning district and square footage. From this, and for requirements specific to each zoning district, the total number of lots large enough to be eligible for development into a duplex was calculated. This analysis reveals that 19% of residentially zoned lots are likely eligible to be converted into duplex lots.
+
+```{python}
+#| echo: false
+#| label: fig-duplex-units
+#| column: margin
+#| fig-cap-location: top
+#| fig-cap: "Unit Lot Size by Residential Zone Class"
+fig = go.Figure()
+dfls = pl.read_excel(
+  r'/Users/mmh/Documents/limby_publishing/discussionpaper1.xlsx',
+  sheet_name='lot_sizes',
+)
+
+zone_order = ['R-3.5', 'R-5', 'R-7.5', 'R-10', 'R-20']
+color_map = {
+    'R-3.5': '#fcc583', 'R-5': '#ddd9c4', 'R-7.5': '#808000',
+    'R-10': '#f49300', 'R-20': '#4682B4'
+}
+
+for zone in zone_order:
+  zone_data = dfls.filter(pl.col('zone_class') == zone)
+  zone_data = zone_data.filter(pl.col('land_area_sqft_norm') < 100000)
+  fig.add_trace(go.Histogram(
+      x=zone_data['land_area_sqft_norm'],
+      name=zone,
+      marker_color=color_map[zone],
+      histnorm='probability',
+      opacity=0.75
+  ))
+
+fig.update_layout(
+    barmode='overlay',
+    width=300,
+    height=350,
+    xaxis_title="Square Foot Lot Area",
+    yaxis_title="% of Lots At Given SqFt",
+    yaxis_tickformat='.2%',
+    legend_title_text="Zone Class",
+    # xaxis_tickfont={'size': 12},
+    # yaxis_tickfont={'size': 12},
+    legend=dict(
+      orientation="h",
+      yanchor="bottom",
+      y=-0.65
+    )
+)
+fig.show()
+```
+GIS data published by Honolulu County were used to get counts of the number of residentially zoned lots in each district. For each district, the number of lots sufficiently large to accommodate a duplex was estimated from our sample dataset. The final figure of homes that could be duplexed is 28,646.
+
+This means that 28,646 homes could be added to Honolulu’s housing supply by converting large single family lots to duplex lots without any changes to our zoning. This would of course take time. But such zoning has existed since the 80s and so there certainly has been time for such conversions to take place.
+
+*Speculatively Held/Under Developed Lots*
+
+Finally we reviewed lots in all residential and apartment districts on O’ahu looking for lots that have no useful structure on them. We did so by matching the lot to the appropriate zoning district as above. The dataset contains over 50,000 random lots spread across residentially zoned lots (R-3.5, R-5, R-7, R-10, R-20), apartment zoned lots (A-1, A-2, A-3), and mixed use districts.
+
+Taking as a given that there is ample demand for housing, we believe it is fair to consider lots held off the market when they are eligible to have housing units built on them but nonetheless have been empty or abandoned for years. They are likely being held speculatively.
+
+To assess whether or not a lot is being held back from development we apply two criteria:
+
+1. Whether or not a property is vacant or likely uninhabitable. 
+2. The length of time for which the property has been vacant or likely uninhabitable.
+
+The second criteria of these is simple enough to determine, we require that the property meet the first criteria (it is vacant or uninhabitable) for five years. This is doubtless not perfect, but gives a good indication of the number of lots held back from productive use. 
+
+Determining the first criteria requires that we set some metric for determining if a property is uninhabitable. Vacant lots are readily determinable, they have no building value assessed. Uninhabitable properties are harder to assess but a reasonable proxy is the total building value. We set a low dollar threshold considering all buildings under $20,000 in value to be likely uninhabitable.
+
+Performing this assessment reveals that around 1% of lots in residentially zoned districts (R-3.5 to R-20) are vacant, e.g. there is no structure. Up to 1.7% are either vacant or have a building worth less than $20,000. This amounts to approximately 2,500 lots the median size of which is 8,000 square feet, meaning many of these could accommodate an ADU in addition to a home.
+
+In Apartment districts, the percent of vacant lots drops to 1.1%. While lower, this is more damaging because apartment zoned land is more scarce, better able to produce affordable housing, and able to produce more housing per lot period. All told there are around 115 apartment lots that have been vacant for at least the last 5 years.
+
+Allowing that many of the Apartment zoned lots are small with a median lot size just under 6,000 square feet, we do not estimate than any of them would produce more than 25 units. This is equivalent to the Bill 7 project at 311 Puuhue Place, on a 5,110 square foot lot, which produced 25 units[^9].
+
+[^9]: "Affordable Walk-up Apartments Are Coming Back, Thanks to Honolulu’s Bill 7",  Hawaii Business Magazine, Feb 2022.
+
+If we add these figures to the DPP's committed supply measures, [Honolulu has existing capacity for between x units to as many as x units]{bg-colour="#e7a967ff"}. Thus on it’s own Honolulu has sufficient zoned capacity to meet x to x times the total demand for housing in Hawaii over the next ten years and to do so right now without any changes to existing zoning or regulation.
+
+These results are summarized in Table 2. We discuss them further below.
+
+```{python}
+#| echo: false
+#| label: tbl-total-capacity
+#| tbl-cap: Estimate of total zoned capacity
+#| tbl-cap-location: top
+
+
+dfhoa = pl.read_excel(
+  r'/Users/mmh/Documents/limby_publishing/discussionpaper1.xlsx',
+  sheet_name='estimates'
+)
+
+table_hoa = (
+  GT(dfhoa)
+  # .tab_header(title="Estimate of total zoned capacity")
+  # .tab_spanner(label="Total Population", columns=cs.all())
+  .fmt_number(columns=cs.exclude(" "), decimals=2)
+  .tab_style(
+      style.text(size=16, weight="bold", ),
+      loc.body(
+        columns=" ",
+      ),
+  )
+  .tab_style(
+      style.text(size=16, weight="bold", style="italic"),
+      loc.body(
+        columns=cs.contains("Total"),
+      ),
+  )
+)
+table_hoa.show()
+```
+The housing units most likely appropriate for local families, will be larger than a one-bedroom ADU. Thus the amount of zoning appropriate for local families is likely not higher than around 100k units in the best case, which is the sum of possible duplex units, units held on speculative lots, and active projects.
+
+We might also categorize the zoned capacity into two buckets: dormant and active capacity. Duplexes and ADU’s require either homeowner interest or else would rely on the existing real estate market so these single-family homes could be redeveloped. Because of the slow pace at which that’s likely to occur we term such units “dormant capacity”.
+
+Such dormant capacity makes up the majority of total zoned capacity. In our high ADU estimate (the second row of Table 2), it makes up 66% of total capacity.
+Active capacity on the other hand is zoned capacity that could be built more readily. In both our high and low estimates, this amounts to some 72k units. The pace at which these units could be built is unquestionably sufficient to meet present demand needs, a point we return to in the next section.
+
+Even in the pessimistic scenario that getting appropriate planning approvals for the speculative lots would take around 2 years, the average time for Bill 7 planning approval, at least 66k units of housing already have that planning approval. 
+
+However, as the 2025 HHPS notes, 66k units are not going to be built over the next ten years. Instead around 12k will be, less than 16% of the active capacity in Honolulu alone.
+
+This raises an obvious question, why? Why if demand is so high, and there are a sufficient number of approved units, and thousands more potentially accessible via ADU’s and duplex conversions, and even more thousands via 201-H or TOD unaccounted for in this analysis are we not building enough units?
+
+# Developers earn higher returns by delaying production {#sec-time-premium}
+
+Zoning is perhaps the most commonly singled-out cause of our housing shortage. As we have shown this is likely a misdiagnosis.
+
+However, in this section, we set aside our previous analysis and examine what is likely to happen if we upzoned. 
+
+Upzoning is a process wherein the allowable development in an area is increased. For instance, you might move from no housing in rural or agricultural areas to a suburban zoning or allow quadplexes in what had been reserved for single family homes.
+
+We test the effects of upzoning using a method pioneered by the Prosper Institute of Australia[^10]. Prosper created a set of metrics to assess a simple question; are developers better off if they delay production to take advantage of changes in land values?
+
+[^10]: Prosper Institute is an advocacy organization exploring how land values drive real estate values in often under appreciated ways. Their [report](https://www.prosper.org.au/wp-content/uploads/2022/07/Staged-Releases-Prosper-Australia-web22.pdf) on timed releases is illuminating.
+
+To assess this Prosper Institute designed ratios that, for each project, capture how fast a developer can build, how fast they do build, and how their revenue changes as a consequence of that variation. 
+
+These metrics are:
+
+1. **Development rate ratio** (DRR): average production rate to peak rate ratio.
+2. **Development rate variability** (DRV): minimum production rate to peak rate ratio.
+3. **Delay premium ratio** (DPR): average minus minimum price divided by minimum price
+4. **Delay premium variability** (DPV): maximum minus minimum price divided by minimum price.
+
+DRR and DRV describe how fast a developer can and how fast they do build in ratio forms relative to their peak and average development speed.
+
+DPR and DPV describe how their revenue per unit of housing varies over the development, again as a set of ratios.
+
+[This set of metrics is based on developer's actual behavior, not PR releases or lobbying campaigns]{bg-colour="#e7a967ff"}. It is an objective look at what developers do: which at the end of the day is manage a business and try to keep returns high.
+
+Unlike the original paper we face a limitation in that we do not have development specific average prices, instead we rely on the average price for the entire Oahu market as reported in the DBEDT's Hawaii Data Book. As new home sales generally command a premium over older homes, this possibly understates the impact of withholding units.
+
+We compute our sales for each unit based on the number of units built in each development as reported in the DPP's annual report. While built units do not necessarily correspond to sold units, Hawaii developers tightly manage the number of speculative units—that is units built before they are sold—in order to minimize inventory.
+
+For instance, DR Horton, one of our largest homebuilders, actively manages speculative builds year over year to minimize unsold inventory:
+
+> We determine our speculative homes strategy in each market based on local market factors, such as new job growth and relocations, housing demand and supply, seasonality, current sales contract cancellation trends and our past experience in the market. We attempt to maintain a level of speculative home inventory in each community based on our current and planned sales pace, and we monitor and adjust speculative home inventory on an ongoing basis. - DR Horton 2023 Annual Report
+
+The number of homes built is a reasonable proxy for home sold. This is common practice throughout housing studies in the US and abroad. For instance, widely cited studies on Auckland cite the number of building consents (equivalent to permits) not the number of units built[^11]. Pew Research reporting[^12] focused on Minneapolis, MN similarly uses permitting data in research cited in the Star Advertiser[^13].
+
+[^11]: Matthew Maltman, Ryan Greenaway-McGrevy, "Going it Alone", Journal of Housing Economics, March 2025.
+
+[^12]: "Minneapolis Land Use Reforms Offer a Blueprint for Housing Affordability", Pew Research, January 2024.
+
+[^13]: "Zoning Reform Can Cure Hawaii’s Housing Struggles", Star Advertiser. 24 March 2024
+
+
+The scope of this analysis covers construction from 1980-2020. Throughout that time period developers engage in a similar pattern of behavior: they build slower than they could and make a higher return on delayed homes.
+
+Table 3 shows the results of this analysis. On average developers generated 24% higher revenues by timing the market, as indicated by the DPR ratio. This was achieved by building at a rate only 38% of the projects demonstrated peak construction rate, as measured by the DRR ratio. 
+
+```{python}
+#| echo: false
+#| label: tbl-dev-ratio
+#| tbl-cap: Development timing ratios
+#| tbl-cap-location: top
+
+
+dfratio = pl.read_excel(
+  r'/Users/mmh/Documents/limby_publishing/discussionpaper1.xlsx',
+  sheet_name='prosper_ratio'
+)
+
+table_ratio = (
+  GT(dfratio)
+  # .tab_header(title="Estimate of total zoned capacity")
+  # .tab_spanner(label="Total Population", columns=cs.all())
+  .fmt_percent(columns=cs.exclude("Project"), decimals=1)
+  .tab_style(
+      style.text(size=16, weight="bold", ),
+      loc.body(
+        columns="Project",
+      ),
+  )
+  .tab_style(
+    style.text(size=16, weight="bold", ),
+    loc.column_labels(cs.all())
+  )
+)
+table_ratio.show()
+```
+In essence, [there is evidence that developers could build much faster, but choose not to]{bg-colour="#e7a967ff"}. Added profits are at least one of the probable motives for that production delay.
+
+These findings correlate neatly with the capacity findings of the previous section. Despite ample zoned capacity, construction rates are measly.
+
+What is not accounted for in the ratios estimating increased returns, yet which is obviously true, is that as the value of the underlying land increases the developers overall equity in the project increases. Thus the ROI of the project increases beyond what is measured here because the increased value of the land accrues entirely to the developer.
+
+Our datasets ability to answer this question is sparser since it lacks sufficient specificity. 
+
+However, the principal is readily demonstrable. Consider for a moment the Ewa by Gentry project started in 2014 and still ongoing. A home sold in 2022 had an assessed land value of around $113/square-foot. As of 2024, that had increased to $125/square-foot a 10% increase for homes situated on similar lots. 
+
+The returns from such increases accrue solely to the developer. Thus the increased revenues these ratios measure, is likely lower than the increased return on investment earned by the developer.
+
+
+# Timing Decisions
+That developers time markets to manage returns should be expected[^14]. Developers are businessmen in charge of earning a return for investors and themselves. Timing building to insure steady or increasing profits is part of their job. They in fact say as much.
+
+[^14]: The astute critic may think this all nonsense since revenue increase up to MC=MR. However, appeals to a MC=MR model are wide of the mark in our estimation because the standard MC curve appealed to doesn’t actually exist in the real world (Blinder 1998, Central Banking in Theory and Practice); MC varies wildly if measured per squarefoot, per unit, per floor arrangement, or per floor floor and thus MC=MR at different production points depending on how it's measured; buildings have discontinuous MC curves (The Marginal Impact of Building Height, M. Erickson, A. Orlando, 2024) which include step-wise *increases* in MC, and in any case the MC must account for the option-value of the property (Murray, The Great Housing Hijack) which is never done.
+
+For instance, DR Horton, the largest builder in the United States discusses in each of its financial reports a concept of inventory impairment. Inventory impairment refers to when the book value of inventory is lower than the market value of that inventory. 
+
+For a builder such as DR Horton, their largest inventory items are land and housing. When beginning projects and in forecasting the number of units to be built, DR Horton and other builders estimate the value of those units.
+
+If market prices soften, the book value of that inventory is in danger of becoming an impaired asset. This is deeply undesirable as writing down assets impairs their balance sheets, which in turn reduces their ability to raise further capital.
+
+To avoid that scenario, DR Horton actively manages their business to several metrics. Among these is the absorption rate. The absorption rate refers to the speed at which homes sell and is calculated by the number of homes sold over the number of homes available for sale over a given period. When this number is high, it indicates a seller’s market. When it's low, it's a buyer’s market.
+
+Contrary to expectations, developers don't anticipate long-term price declines when the absorption rate softens. Instead, they try to manage the production rate to ensure returns on investment. They say just that time and time again in earnings calls when the question comes up.
+
+For instance, here is DR Horton responding to a question about softening demand in the second quarter of 2024:
+
+> Community by community, our local operators are making decisions based upon the lot supply they have in a given project or a given submarket relative to demand that they're currently seeing in that market and looking to price and start homes, price those homes and sell those homes at a pace that's going [to maximize the margin available at that pace and for what that submarket can absorb]{bg-colour="#e7a967ff"}. - Q1 2024, [Quarterly earnings call transcript](https://www.investing.com/news/transcripts/earnings-call-transcript-dr-horton-beats-q1-2024-estimates-stock-rises-93CH-3822458)
+
+Lennar, another large developer, responding to a question during their earnings call about achieving high absorption rates, makes similar comments:
+
+> Steve, I would add, as Rick is saying, it is really paying attention closely to [matching sales to our start pace so we don't build up inventory]{bg-colour="#e7a967ff"}. Q2 2023, [Quarterly earnings call transcript](https://www.roic.ai/quote/LEN/transcripts/2023-year/2-quarter)
+
+This timing behavior is intuitive if you apply the same reasoning to decisions investors make in other arenas. If you expect the price of an asset to rise, you’re hardly likely to sell it low. You’re hardly likely to behave in a manner that undermines that expectation.
+
+In a 2023 paper, economists Lange and Tulings note that developers face this same incentive[^15], writing that "the higher the anticipated growth, the more attractive it is to wait—in lay terms, don’t build when demand is booming." Another paper[^16] finds that:
+
+> property developers with a large market share [might delay housing development in the pre-planning phase due to their relatively large amount of land holdings]{bg-colour="#e7a967ff"}. Meanwhile, developers with a smaller market share strategically delay housing development in the construction phase because they [await favorable conditions, such as rising housing prices]{bg-colour="#e7a967ff"}. (emphasis added)
+
+[^15]: Rutger-Jan Lange & Coen N. Teulings, 2021. "The option value of vacant land: Don't build when demand for housing is booming," Tinbergen Institute Discussion Papers 21-022/IV, Tinbergen Institute.
+
+[^16]: Kuipers, Thierry (2024), Market concentration: The influence of property developers on housing development, Masters Thesis, Utrecht University
+
+This line of thinking in some ways resurrects one that was common until recently. See for instance Sheridan (1985)[^17] and Grenadier (1996)[^18].
+
+[^17]: Titman, Sheridan. “Urban Land Prices Under Uncertainty.” The American Economic Review 75, no. 3 (1985): 505–14. http://www.jstor.org/stable/1814815.
+
+[^18]: Grenadier, S. R., 1996, "The strategic exercise of options: Development cascades and overbuilding in real estate markets", The Journal of Finance 51, 1653–1679.
+
+::: {.callout-note}
+## More than one way to delay
+Makaiwa Hills, a [mixed-use development situated above Kapolei](https://www.jamescampbell.com/portfolio/hawai-i/makaiwa-hills/), is listed as a "proposed" project in the DPP's annual reports. That means at a minimum that construction hasn't begun and the developer has not applied for building permits. Thus it wasn't included in @sec-existing-capacity because we chose to conservatively only include those that have actually started construction-called "committed projects".
+
+In many ways it seems a perfect case study in how our zoning laws hold back development. The project promises 4,100 units of much needed housing across a mix of affordable and market rate units in apartments and single family homes. 
+
+But in reality, it's a case study in how developers delay.
+
+Approval for this project was granted by the state LUC in **1993**, [Makaiwa Hills was granted a land use change](https://files.hawaii.gov/luc/dockets/a92-687/DO_1993-10-28.pdf) by the LUC for a 4,100 unit mix of apartment and single-family homes; including affordable housing. Back then it was predicted that the project would be completed between 2005 and 2015.
+
+Instead, Makaiwa Hills wouldn't request a zoning change from the Honolulu City Council until **2008**, [which was promptly done](https://www4.honolulu.gov/docushare/dsweb/Get/Document-80657/3lsljpn-.pdf). Revising their timeline slightly, the Council was told that development would [likely be complete by 2020](https://www4.honolulu.gov/docushare/dsweb/Get/Document-77653/D-503.pdf).
+
+Construction has yet to begin. Instead, the developer has sought one year "agricultural dedication" exemptions for the last 17 years. Paying next to nothing in taxes but retaining an option to develop housing that gets more and more valuable over time. 
+
+As we saw in @sec-time-premium, local developers pace their production and their average production rate is less than a third of their peak, likely indicative of timing decisions. 
+
+What Makaiwa Hills shows is that developers don't just delay construction; they delay the start of construction even after permission is granted to build. 
+
+It's not alone in this distinction. Royal Kunia II, has had [planning approval for decades](https://luc.hawaii.gov/wp-content/uploads/2024/02/A92-683-Halekua-2024-02-15-HRK-15-EXHIBIT-11.pdf). Kapolei West was granted a land use change by the LUC in 2006 and a zoning change in 2008 with an estimated completion date of 2020. There are by our estimate approximately 9,000 units with both LUC and zoning approval for well over a decade that have yet to advance.
+:::
+
+This decision making is no different than those many of us make in our own investments. In managing one's own stock investments for instance, you are unlikely to sell the entirety of your Apple stock today if you think that the price will rise tomorrow. 
+
+Developers are making the same decision with respect to land. All development of land equates to selling an "option" to develop land[^19][^20]. If you expect the value of that option to rise, you are unlikely to part with it. In an London School of Economics paper, it’s put this way:
+
+> If developers build and sell slowly, they may benefit from a relatively higher price in the future, however, this price is discounted more. This is the basic trade-off that developers are facing[^21].
+
+[^19]: Murray, C. K., 2020, "Time is money: How landbanking constrains housing supply", Journal of Housing Economics 49, 101708.
+
+[^20]: Qian, W. (2013), Why Do Sellers Hold Out in the Housing Market? An Option-Based Explanation. Real Estate Economics, 41: 384-417. https://doi.org/10.1111/j.1540-6229.2012.00345.x
+
+[^21]: Ball, Michael, Cheshire, Paul, Hilber, Christian A. L. and Yu, Xiaolun (2024) Why delay? Understanding the construction lag, aka the build out rate. CEP Discussion Papers (CEPDP1990). London School of Economics and Political Science. Centre for Economic Performance, London, UK.
+
+Of course, in our own case, we may hedge for the uncertainty and sell some stock now. Developers do the same, developing some portion of their stock now and holding on to undeveloped stock in anticipation of higher returns.
+
+In the developers’ case, this decision is even more costly. This is because once a building is put on land, not only does the value of the property rise, but redeveloping that property to some more dense use incurs additional costs from demolition and further timing delays in the case of existing leases. 
+
+We have focused here on "timing decisions" from developers. But we note that even though these decisions are frequently beneficial to the developer, they are not necessarily voluntary. Often unremarked is the actual structure of the terms developers agree to in acquiring financing.
+
+These terms frequently require that the loan amount never exceed a certain percent of the equity of the project. [This amounts to a contractual prohibition on lowering prices]{bg-colour="#e7a967ff"}!
+
+If they lower their price, then they have taken an impairment against their land assets—assets owned in part by banks and other creditors. 
+
+Because lowering their prices below a certain point amounts to writing off the value of the loan, creditors often write into the terms of the loan restrictions on either the release price or the value of the loan as a percent of the total equity in the project.
+
+For instance, in discussing how a developer may respond to absorption rate slowdowns by lowering prices the Urban Land Institute has this to say:
+
+> [Even if they are willing to accept the lower sale price of $30,000 per lot, their lenders may set loan covenants that prevent the sale]{bg-colour="#e7a967ff"}[^22].
+
+[^22]: Urban Land Institute, Professional Real Estate Development 2nd Edition, pg. 64
+
+Recent efforts have shown that these constraints extend to the sorts of analysis that developers perform before doing new development. In particular researchers at UC Berkley’s Terner Center highlight the importance of the spread between return on cost vs. local capitalization rates[^23].
+
+[^23]: Making It Pencil: The Math Behind Housing Development”, UC Berkley Terner Center for Housing Innovation, 2019. 
+
+Return on cost is calculated by dividing the anticipated net operating income of a new project by the total project cost. It represents in approximate form the dividend rate or yield of the investment.
+
+Local capitalization rates are the return gained from owning a property without doing anything to it, e.g. the gains from land appreciation and any existing rents.
+
+In order for a new project to be “worth” doing, developers require the return on cost to be substantially higher than local capitalization rates. That is a building a new unit must return more than simply holding on to an existing one.
+
+While home prices and returns are distinct concepts, they are not unrelated. So by implication, i[t is unlikely that developers would begin projects if they anticipate price declines since in such a case local capitalization rates are almost certainly higher than the return on cost]{bg-colour="#e7a967ff"}.
+
+In sum then, when faced with slowing sales, developers are not fully able to respond by lowering prices. To sell homes, they would need to lower prices, but to lower prices they would first need to pay off their financing, to pay off their financing of course, they would need to sell homes. This catch-22 means that developers are likely to keep prices high and wait for demand to rebuild. That isn’t malicious, it is simply often their only option.
+
+# Discussion
+
+Throughout this report we have sought to show that blame for our present housing shortage cannot be placed solely, or even primarily, with zoning regulations.
+
+In particular, we have shown that developers are not up against a governmentally imposed ceiling on the number of units they can produce; at least in Honolulu. 
+
+They have tens of thousands of units of capacity above and beyond the current shortage of housing Hawaii faces. These units consists of existing projects, dormant capacity in the forms of ADU’s and duplex redevelopment, and speculatively held lots.
+
+We have also shown that developers have for decades in Hawaii, built out projects at a slower pace than their own demonstrated capability—tending to produce at around 35% of their own peak production rates.
+
+This timing behavior is not uncommon, as developers’ own comments suggest, and aligned with the developers’ own best interests as ample research has shown.
+
+However, it would be a mistake to consider either of these findings as impugning developer or upzoning. Zoning reform ought to be a natural part of the lifecycle of any city and neighborhood. Developers play a critical role in coordinating both capital and construction work to get housing built.
+
+What the findings do show is the insufficiency of an affordable housing approach anchored in the assumption that government red-tape is the primary barrier to affordability and in particular that zoning creates the most pernicious of these[^24].
+
+[^24]: We would be remiss if we didn’t mention the two cities most commonly given as counter examples, Auckland, Aotearoa and Austin, Texas. In Auckland we note that in the decade since their reform rental rates have declined from ~20% of income to around 19% of income. Similarly before their zoning reforms, homes in Auckland cost around 10x annual median incomes. Ten years on, they cost 10x annual median incomes. Neither of these outcomes strike us as smashing successes and certainly a 1% decline in rent per decade won’t answer Hawaii’s housing needs.<p><br>In Austin, the majority of the growth has come from sprawling single family homes (see “Lessons from America’s Fastest Growing Cities”, George Bush Center, 2025) and the majority of the housing built in Austin’s latest boom occurred prior to their zoning reforms in 2024. Additionally, for all the hullabaloo around declining prices in that market, prices are still up and the share of rent burdened households has steadily increased (see for instance the US Census 1 year estimates in the latest ACS release).<p><br>For a summary of places that have tried the upzoning approach, see “What would YIMBY housing success in Hawaii look like?”, LIMBY Hawaii, 2025. 
+
+Instead a key impediment to getting housing built is the behavior of market actors who often—long after receiving government approval—delay production of needed housing units.
+
+Because O’ahu has ample zoned capacity relative to both its assessed needs and current housing production rates, it is this developer behavior, not zoning, that fundamentally limits the supply of housing on O’ahu.
+
+We present evidence that this is a function of return requirements to capital that developers manage[^25]. Indeed, the “pencil out” phrase so common in housing circles refers not to the profit and loss of a particular project, but the extent to which its expected return meets or beats the returns of alternative investments[^26].
+
+[^25]: Note that in addition to this, some of it may be related to limitations imposed by supply chain problems and a lack of available labor, see “Hawaii Construction Boom Will Require Workers From The Mainland”, CivilBeat, January 2024. If this is a driving cause, it would mean of course that expecing sufficient production of market rate units is a fools errand.
+
+[^26]: Making It Pencil: the Math Behind Housing Development – 2023 Update”, Terner Center for Housing Innovation, UC Berkeley, December 2023.
+
+
+This suggests a few paths forward which we only briefly and incompletely sketch here.  
+
+Policy makers could consider retooling existing programs to leverage developers’ core competency in managing the material and labor of construction projects by employing them for just that purpose, while providing full public financing for the project. 
+
+This would amount effectively to a “fixed-price” contract and would remove incentives to delay or slow production.
+
+An alternative to this would be to primarily fund organizations that already are less concerned with meeting market return expectations, even if not fully immune from them. Namely, this would mean shifting to favor nonprofit developers and organizations like community land trusts[^27].
+
+[^27]: For more information on Community Land Trusts, see the policy kit “Community Land Trusts” published by Democracy Policy Network.
+
+Another option would be to impose a two-way shot clock. Much as some clamor to require that planning departments grant a planning permit within a certain time period, those same planning permits might come with an expiration date and a cost for failing to exercise them.
+
+Less caustically, targeted property tax reforms may induce faster development. One approach that might work is a land value tax. This would reduce the returns from delaying production as the increased value of the raw-unimproved land would go to the public, not the developer. The land value could be assessed at a baseline time, for instance when planning approval for a project is granted, prior to changes in zoning for a lot, or based on the purchase price of the land.
+
+If we wish to accelerate the pace of housing production, it is critical that we understand what gummed up the gears in the first place. 
+
+Contrary to common wisdom, we are not running into a limit on how much can be built. Instead the rate restriction on our housing production is driven in large part by the free market itself and the balancing act it maintains between capital markets, expected rates of return, and rates of production. Our solutions must take account of that fact. 

@@ -1,0 +1,16 @@
+/* css styles */
+#quarto-sidebar  {
+  background-image: url('assets/palaka.png');
+  background-repeat: repeat-y;
+  background-size: 25% auto;
+  padding-left: 20px;
+  background-position: center;
+}
+
+nav.sidebar.sidebar-navigation:not(.rollup) {
+background-color: #ffffff;
+}
+
+.sidebar.sidebar-navigation:not(.rollup) {
+border-right: 0px solid #dee2e6 !important;
+}
