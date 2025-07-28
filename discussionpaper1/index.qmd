@@ -7,6 +7,7 @@ date: ""
 format:
     html: 
       page-layout: article
+      style: styles.css
 #       self-contained: true
 #       sidebar:
 #         style: "docked"
@@ -63,7 +64,7 @@ We validate this finding by referencing academic literature and statements from 
 
 In addition to a number of academic and journalistic sources cited throughout, we rely on two primary sources for local housing data.
 
-The DPP Annual Report is used to extract zoned capacity—that is housing units that are currently approved to be built—and actual construction.
+The DPP Annual Report is used to extract zoned capacity—that is housing units that are currently approved to be built—and actual construction. The DPP's figures are not systematic and may in some cases be an undercount. The DPP relies on developer input, news stories, and public testimony in addition to information in it's own databases to derive the data.
 
 This distinction between zoned capacity and actual construction introduces a concept often conflated in discussions around our housing shortage and zoned capacity. Zoned and approved housing are often treated as indistinguishable from the supply of housing. But this is not exactly correct.
 
@@ -130,51 +131,57 @@ The results of this analysis are shown in Figure 1, below. In sum, it shows that
 This analysis undercut arguments that our anemic supply is a product of zoning laws.
 
 Despite that capacity, the pace at which O’ahu produces new housing is entirely insufficient to meet our housing demand. While we could, as far as zoning is concerned, build 20,000 new units on O’ahu by the governor’s deadline, if developers continue to build at the average rate of production over the 5 years from 2022-2021 and 2019-2017 (excluding 2020, due to COVID impacts) it will take 20 years to exhaust present zoned capacity.
+
+::: {#fig-committed-capacity .column-page-inset-right}
 ```{python}
 #| echo: false
-#| column: page-inset-right
 #| fig-cap-location: top
-#| label: fig-commited-capacity
-#| fig-cap: "Built vs Remaining Commited Capacity in Honolulu"
+##| fig-caption: Built vs Remaining Committed Capacity in Honolulu
 #| warning: false
 
+
 import polars as pl
-import plotly.express as px
 import plotly.graph_objects as go
 
 dfz = pl.read_excel(r'./data/analysis.xlsx', sheet_name='zoned_capacity')
 #f49300
 #78403a
-fig = go.Figure()
-fig.add_trace(
+fig = go.Figure().add_trace(
   go.Scatter(
-    x=dfz["Year"], y=dfz["Total Committed Project Capacity As of Start year"],
+    x=dfz.filter(pl.col('Year') < 2023)["Year"], y=dfz.filter(pl.col('Year') < 2023)["Total Committed Project Capacity As of Start year"],
     mode='lines',
     name='Remaining Commited Capacity',
-    line=dict(color='#f49300', width=3)
+    line=dict(color='#f49300', width=3),
   )
-)
-fig.add_trace(
+).add_trace(
+  go.Scatter(
+    x=dfz.filter(pl.col('Year') >= 2022)["Year"], y=dfz.filter(pl.col('Year') >= 2022)["Total Committed Project Capacity As of Start year"],
+    mode='lines',
+    line=dict(color='#f49300', width=3, dash='dot'),
+    showlegend=False
+  )
+).add_trace(
   go.Scatter(
     x=dfz["Year"], y=dfz["Annual Units Built"],
     mode='lines',
     name='Annual Units Built',
     line=dict(color='#78403a', width=3)
   )
-)
-
-fig.update_layout(
+).update_layout(
   plot_bgcolor='white',
   xaxis_title="Year",
   yaxis_title="Units",
-  # legend=dict(orientation="h", yanchor="bottom", y=-0.2, xanchor="right", x=1)
 )
-fig.show()
-
-
+fig
 # Field "column" has value column-body-outset, which must instead be one of: `body`, `body-outset`, `body-outset-left`, `body-outset-right`, `page`, `page-left`, `page-right`, `page-inset-left`, `page-inset-right`, `screen`, `screen-left`, `screen-right`, `screen-inset`, `screen-inset-shaded`, `screen-inset-left`, `screen-inset-right`, `margin
 ```
-That is not a problem with zoning nor permitting. The zoning is there. It is a production problem.
+
+:::
+
+
+That is not a problem with zoning nor permitting. The zoning is there. It is a production problem[^28].
+
+[^28]: The dashed line from 2022 to 2024 is due to DPP not releasing data for those years. Consequently added capacity is estimated from the HHFDC's annual report and includes only new RHHF, HMMF, LIHTC, and 201-H expedited projects. As none of the reviewed projects have completed construction they do not impact the built line as of yet. 
 
 Thus far local policymakers have focused their attention on increasing the zoned capacity. But as Figure 1 shows, an ample amount of approved housing units does not mean they are built. 
 
@@ -352,16 +359,16 @@ These results are summarized in Table 2. We discuss them further below.
 #| tbl-cap-location: top
 
 
-dfhoa = pl.read_excel(
+dfa = pl.read_excel(
   r'./data/analysis.xlsx',
   sheet_name='estimates'
 )
 
-table_hoa = (
-  GT(dfhoa)
+table_capacity = (
+  GT(dfa)
   # .tab_header(title="Estimate of total zoned capacity")
   # .tab_spanner(label="Total Population", columns=cs.all())
-  .fmt_number(columns=cs.exclude(" "), decimals=2)
+  .fmt_number(columns=cs.exclude(" "), decimals=0)
   .tab_style(
       style.text(size=16, weight="bold", ),
       loc.body(
@@ -375,7 +382,7 @@ table_hoa = (
       ),
   )
 )
-table_hoa.show()
+table_capacity.show()
 ```
 The housing units most likely appropriate for local families, will be larger than a one-bedroom ADU. Thus the amount of zoning appropriate for local families is likely not higher than around 100k units in the best case, which is the sum of possible duplex units, units held on speculative lots, and active projects.
 

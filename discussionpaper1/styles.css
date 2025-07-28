@@ -14,3 +14,7 @@ background-color: #ffffff;
 .sidebar.sidebar-navigation:not(.rollup) {
 border-right: 0px solid #dee2e6 !important;
 }
+
+p.caption-top {
+  text-align: left !important; 
+}
