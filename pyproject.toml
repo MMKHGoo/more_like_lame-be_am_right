@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "fastexcel>=0.14.0",
     "great-tables>=0.18.0",
     "jupyter>=1.1.1",
     "plotly>=6.2.0",

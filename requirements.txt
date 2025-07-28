@@ -53,6 +53,8 @@ executing==2.2.0
     # via stack-data
 faicons==0.2.2
     # via great-tables
+fastexcel==0.14.0
+    # via discussionpaper1 (pyproject.toml)
 fastjsonschema==2.21.1
     # via nbformat
 fqdn==1.5.1
@@ -232,6 +234,8 @@ ptyprocess==0.7.0
     #   terminado
 pure-eval==0.2.3
     # via stack-data
+pyarrow==21.0.0
+    # via fastexcel
 pycparser==2.22
     # via cffi
 pygments==2.19.2
