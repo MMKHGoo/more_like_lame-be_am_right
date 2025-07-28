@@ -142,7 +142,7 @@ import polars as pl
 import plotly.express as px
 import plotly.graph_objects as go
 
-dfz = pl.read_excel(r'/Users/mmh/Documents/limby_publishing/discussionpaper1.xlsx', sheet_name='zoned_capacity')
+dfz = pl.read_excel(r'./data/analysis.xlsx', sheet_name='zoned_capacity')
 #f49300
 #78403a
 fig = go.Figure()
@@ -206,7 +206,7 @@ import polars.selectors as cs
 
 
 dfhoa = pl.read_excel(
-  r'/Users/mmh/Documents/limby_publishing/discussionpaper1.xlsx',
+  r'./data/analysis.xlsx',
   sheet_name='hoa_spot_check',
   schema_overrides={
     "Site": pl.String, "W/out HOA": pl.String, "All": pl.String,
@@ -275,7 +275,7 @@ To estimate the number of eligible lots, we parsed a dataset of tens of thousand
 #| fig-cap: "Unit Lot Size by Residential Zone Class"
 fig = go.Figure()
 dfls = pl.read_excel(
-  r'/Users/mmh/Documents/limby_publishing/discussionpaper1.xlsx',
+  r'./data/analysis.xlsx',
   sheet_name='lot_sizes',
 )
 
@@ -353,7 +353,7 @@ These results are summarized in Table 2. We discuss them further below.
 
 
 dfhoa = pl.read_excel(
-  r'/Users/mmh/Documents/limby_publishing/discussionpaper1.xlsx',
+  r'./data/analysis.xlsx',
   sheet_name='estimates'
 )
 
@@ -446,7 +446,7 @@ Table 3 shows the results of this analysis. On average developers generated 24% 
 
 
 dfratio = pl.read_excel(
-  r'/Users/mmh/Documents/limby_publishing/discussionpaper1.xlsx',
+  r'./data/analysis.xlsx',
   sheet_name='prosper_ratio'
 )
 
