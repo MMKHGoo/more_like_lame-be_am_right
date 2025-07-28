@@ -136,7 +136,7 @@ Despite that capacity, the pace at which O’ahu produces new housing is entirel
 ```{python}
 #| echo: false
 #| fig-cap-location: top
-##| fig-caption: Built vs Remaining Committed Capacity in Honolulu
+#| fig-caption: Built vs Remaining Committed Capacity in Honolulu
 #| warning: false
 
 
